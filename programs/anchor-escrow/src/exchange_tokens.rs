@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
-use anchor_spl::token::{ self, CloseAccount, Mint, SetAuthority, TokenAccount, Transfer };
-use spl_token::instruction::AuthorityType;
+use anchor_spl::token::{ self, CloseAccount, TokenAccount, Transfer };
+
 
 declare_id!("4MFq2RjxeKARmiAWYZ3zCyuvqjCwg1HatNyqDmPgS83g");
 // Exchange from Taker to Initializer and Escrow account to Taker
